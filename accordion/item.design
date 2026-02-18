@@ -1,0 +1,8 @@
+@details class=group
+  @summary class=list-none flex items-center justify-between p-4 cursor-pointer select-none hover:bg-gray-50
+    @span class=font-medium text-gray-900
+      {title}
+    @span class=text-gray-400 transform group-open:rotate-180 transition-transform duration-200
+      ▼
+  @div class=px-4 pb-4 text-gray-600
+    {children}

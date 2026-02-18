@@ -1,0 +1,6 @@
+link:
+  tag: a
+  class: link
+  variants:
+    primary: text-indigo-600 hover:text-indigo-700
+    secondary: text-gray-600 hover:text-gray-700

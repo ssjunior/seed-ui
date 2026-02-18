@@ -1,0 +1,6 @@
+card:
+  tag: div
+  class: card
+  variants:
+    primary: border-l-4 border-indigo-600
+    secondary: border-l-4 border-gray-400

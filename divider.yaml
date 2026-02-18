@@ -1,0 +1,3 @@
+divider:
+  tag: hr
+  class: divider border-t border-gray-300 my-4

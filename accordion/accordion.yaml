@@ -1,0 +1,5 @@
+accordion:
+  tag: div
+  class: space-y-2
+  variants:
+    bordered: border border-gray-200 rounded-lg p-4

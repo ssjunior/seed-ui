@@ -1,0 +1,4 @@
+item:
+  tag: div
+  variants:
+    bordered: border border-gray-200 rounded-lg overflow-hidden

@@ -1,0 +1,3 @@
+pagination:
+  tag: nav
+  class: flex justify-between gap-4 mt-12 pt-6 border-t border-gray-200

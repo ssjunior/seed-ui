@@ -1,0 +1,17 @@
+table:
+  class: w-full text-sm rounded-xl overflow-hidden shadow-sm ring-1 ring-gray-200 mb-6
+
+thead:
+  class: bg-gray-50
+
+tbody:
+  class: divide-y divide-gray-100
+
+tr:
+  class: border-b border-gray-200 last:border-b-0 hover:bg-gray-50
+
+th:
+  class: bg-gray-50 px-5 py-3 text-left font-semibold text-gray-900 border-b-2 border-gray-200 whitespace-nowrap
+
+td:
+  class: px-5 py-3 text-gray-700 align-top
