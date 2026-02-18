@@ -1,10 +1,9 @@
 section:
   tag: section
-  class: flex items-center py-8 reveal
+  class: py-16 px-6
   variants:
-    start: items-start
-    center: items-center
-    end: items-end
-    between: justify-between
-    around: justify-around
-    evenly: justify-evenly
+    contained: max-w-6xl mx-auto
+    center: text-center
+    dark: bg-gray-900 text-white
+    light: bg-gray-50
+    tinted: bg-indigo-50

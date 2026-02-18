@@ -1,3 +1,6 @@
 divider:
   tag: hr
-  class: divider border-t border-gray-300 my-4
+  class: border-t border-gray-200 my-8
+  variants:
+    subtle: border-gray-100
+    strong: border-gray-400
