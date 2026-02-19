@@ -1,7 +1,7 @@
 column:
   tag: div
   class: min-w-0
-  variants:
+  variant:
     span-1: col-span-1
     span-2: col-span-2
     span-3: col-span-3

@@ -2,7 +2,7 @@ grid:
   tag: div
   class: grid gap-6 md:gap-8
 
-  variants:
+  variant:
     cols-2: grid gap-6 md:gap-8 md:grid-cols-2
     cols-3: grid gap-6 md:gap-8 md:grid-cols-3
     cols-4: grid gap-6 md:gap-8 md:grid-cols-4

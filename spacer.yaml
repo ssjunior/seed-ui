@@ -1,7 +1,7 @@
 spacer:
   tag: div
   class: h-8
-  variants:
+  variant:
     sm: h-2
     md: h-4
     xl: h-16

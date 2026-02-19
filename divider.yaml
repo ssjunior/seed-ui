@@ -1,6 +1,6 @@
 divider:
   tag: hr
   class: border-t border-gray-200
-  variants:
+  variant:
     subtle: border-gray-100
     strong: border-gray-400

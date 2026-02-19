@@ -1,7 +1,7 @@
 ul:
   tag: ul
   class: list-disc pl-6 space-y-2 text-gray-700
-  variants:
+  variant:
     check: space-y-2 pl-0 list-none
 
 ol:

@@ -1,6 +1,6 @@
 nav:
   tag: nav
   class: relative bg-white border-b border-gray-200
-  variants:
+  variant:
     dark: bg-gray-900 border-gray-800 text-white
     transparent: bg-transparent border-transparent

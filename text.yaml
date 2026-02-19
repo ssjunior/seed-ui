@@ -38,7 +38,7 @@ text:
   tag: p
   class: text-gray-600 leading-relaxed
 
-  variants:
+  variant:
     small: text-sm
     large: text-lg
     inverted: text-gray-300
