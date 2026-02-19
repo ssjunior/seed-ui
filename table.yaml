@@ -1,5 +1,5 @@
 table:
-  class: w-full text-sm rounded-xl overflow-hidden shadow-sm ring-1 ring-gray-200 mb-6
+  class: w-full text-sm rounded-xl overflow-hidden shadow-sm ring-1 ring-gray-200
 
 thead:
   class: bg-gray-50

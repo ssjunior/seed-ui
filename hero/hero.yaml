@@ -1,7 +1,8 @@
 hero:
   tag: section
-  class: min-h-96 flex items-center
+  class: min-h-96 flex items-center relative overflow-hidden
   variants:
     primary: bg-indigo-600 text-white
     dark: bg-gray-900 text-white
     light: bg-gray-50
+    image: text-white bg-black/40

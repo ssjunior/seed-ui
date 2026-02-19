@@ -1,0 +1,14 @@
+@feature
+  @container
+    @grid variant=cols-2
+      @stack class=reveal
+        @h2
+          {title}
+
+        @p
+          {intro}
+
+        {items}
+
+      {image}
+

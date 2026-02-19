@@ -4,5 +4,4 @@ spacer:
   variants:
     sm: h-2
     md: h-4
-    lg: h-8
     xl: h-16

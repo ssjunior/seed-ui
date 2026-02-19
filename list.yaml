@@ -1,0 +1,13 @@
+ul:
+  tag: ul
+  class: list-disc pl-6 space-y-2 text-gray-700
+  variants:
+    check: space-y-2 pl-0 list-none
+
+ol:
+  tag: ol
+  class: list-decimal pl-6 space-y-2 text-gray-700
+
+li:
+  tag: li
+  class: leading-7
