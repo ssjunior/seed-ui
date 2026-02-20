@@ -1,6 +1,6 @@
 nav:
   tag: nav
-  class: relative bg-white border-b border-gray-200
+  class: seed-nav sticky top-0 z-50 bg-white transition-all duration-300 backdrop-blur-md
   variant:
     dark: bg-gray-900 border-gray-800 text-white
     transparent: bg-transparent border-transparent

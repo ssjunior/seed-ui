@@ -1,8 +1,12 @@
 card:
   tag: div
-  class: p-8 bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden
+  class: flex-col p-8 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden
   variant:
     primary: border-l-4 border-indigo-600
     secondary: border-l-4 border-gray-400
     flat: shadow-none border border-gray-100
     elevated: shadow-lg border-0
+  design: |
+    @h3 class=text-xl font-bold text-gray-900 mb-3
+      {title}
+    {children}

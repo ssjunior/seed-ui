@@ -1,5 +1,0 @@
-quote:
-  tag: blockquote
-  class: border-l-4 border-gray-300 pl-4 italic my-6 text-gray-600
-  variant:
-    highlight: border-indigo-500 text-gray-800 bg-indigo-50 rounded-r-lg pr-4 py-2
