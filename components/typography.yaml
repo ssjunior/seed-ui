@@ -1,0 +1,101 @@
+h1:
+  tag: h1
+  class: text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-gray-900
+  variant:
+    muted: text-gray-600
+  align:
+    center: text-center
+    right: text-right
+
+h2:
+  tag: h2
+  class: text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-gray-900
+  variant:
+    muted: text-gray-600
+  align:
+    center: text-center
+    right: text-right
+
+h3:
+  tag: h3
+  class: text-xl sm:text-2xl font-semibold tracking-tight text-gray-900
+  variant:
+    muted: text-gray-600
+  align:
+    center: text-center
+    right: text-right
+
+h4:
+  tag: h4
+  class: text-lg sm:text-xl font-semibold text-gray-900
+  variant:
+    muted: text-gray-600
+  align:
+    center: text-center
+    right: text-right
+
+h5:
+  tag: h5
+  class: text-base sm:text-lg font-medium text-gray-900
+  variant:
+    muted: text-gray-600
+
+h6:
+  tag: h6
+  class: text-sm sm:text-base font-medium text-gray-700
+
+p:
+  tag: p
+  class: text-base text-gray-900 leading-relaxed
+  variant:
+    muted: text-gray-500
+  align:
+    center: text-center
+    right: text-right
+
+lead:
+  tag: p
+  class: text-lg sm:text-xl text-gray-600 leading-relaxed
+  variant:
+    muted: text-gray-500
+  align:
+    center: text-center
+    right: text-right
+
+small:
+  tag: small
+  class: text-sm text-gray-500
+
+caption:
+  tag: span
+  class: text-xs text-gray-500
+  variant:
+    uppercase: font-medium uppercase tracking-wider
+
+link:
+  tag: a
+  class: text-teal-600 hover:text-teal-700 underline underline-offset-2 transition-colors
+  variant:
+    muted: text-gray-500 hover:text-gray-700
+
+blockquote:
+  tag: blockquote
+  class: border-l-4 border-teal-500 pl-6 py-2 italic text-gray-600 text-lg
+  variant:
+    accent: border-teal-600
+    muted: border-gray-300
+
+code:
+  tag: code
+  class: px-2 py-1 bg-gray-100 text-gray-800 rounded text-sm font-mono
+
+pre:
+  tag: pre
+  class: p-4 sm:p-6 bg-gray-900 text-gray-100 rounded-xl overflow-x-auto text-sm font-mono
+
+kbd:
+  tag: kbd
+  class: px-2 py-1 bg-gray-100 border border-gray-300 rounded text-sm font-mono shadow-sm
+  size:
+    sm: px-1.5 py-0.5 text-xs
+    lg: px-3 py-1.5 text-base

@@ -1,0 +1,40 @@
+alert:
+  tag: div
+  class: flex items-start gap-3 p-4 rounded-xl bg-teal-50 text-teal-800 border border-teal-200
+  variant:
+    info: bg-teal-50 text-teal-800 border-teal-200
+    success: bg-green-50 text-green-800 border-green-200
+    warning: bg-yellow-50 text-yellow-800 border-yellow-200
+    danger: bg-red-50 text-red-800 border-red-200
+    neutral: bg-gray-50 text-gray-800 border-gray-200
+
+progress:
+  tag: div
+  class: w-full h-2 bg-gray-200 rounded-full overflow-hidden
+  variant:
+    success: bg-green-200
+    warning: bg-yellow-200
+    danger: bg-red-200
+  size:
+    sm: h-1
+    lg: h-3
+
+spinner:
+  tag: div
+  class: w-6 h-6 border-2 border-gray-200 border-t-teal-600 rounded-full animate-spin
+  variant:
+    white: border-gray-400 border-t-white
+  size:
+    sm: w-4 h-4 border-2
+    lg: w-8 h-8 border-3
+
+skeleton:
+  tag: div
+  class: bg-gray-200 rounded animate-pulse
+  variant:
+    text: h-4 rounded
+    circle: rounded-full
+    rect: rounded-lg
+  size:
+    sm: h-3
+    lg: h-6

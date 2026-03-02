@@ -1,0 +1,5 @@
+comparison:
+  tag: div
+  class: overflow-x-auto
+  variant:
+    bordered: border border-gray-200 rounded-2xl

@@ -1,0 +1,7 @@
+footer:
+  tag: footer
+  class: text-gray-900 py-12 sm:py-16
+  variant:
+    light: bg-gray-50 text-gray-900
+    dark: bg-gray-950 text-white
+    primary: bg-teal-900 text-white

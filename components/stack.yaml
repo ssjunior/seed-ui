@@ -1,7 +1,0 @@
-stack:
-  tag: div
-  class: flex flex-col gap-6
-
-  variant:
-    tight: flex flex-col gap-4
-    loose: flex flex-col gap-8

@@ -1,0 +1,9 @@
+@table as=table, class=w-full text-sm sm:text-base
+  @thead as=thead, class=bg-gray-50 border-b border-gray-200
+    @tr as=tr
+      @th as=th, class=px-4 py-3 sm:px-6 sm:py-4 text-left font-semibold text-gray-500
+        {?col1_header}
+      @th as=th, class=px-4 py-3 sm:px-6 sm:py-4 text-left font-semibold text-gray-500
+        {?col2_header}
+  @tbody as=tbody, class=divide-y divide-gray-100
+    {?children}

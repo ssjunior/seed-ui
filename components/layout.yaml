@@ -1,0 +1,111 @@
+spacer:
+  tag: div
+  class: h-8
+  variant:
+    sm: h-2
+    md: h-4
+    xl: h-16
+
+container:
+  tag: div
+  class: w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8
+  size:
+    narrow: max-w-3xl
+    wide: max-w-7xl
+    full: max-w-full
+
+row:
+  tag: div
+  class: flex flex-row items-center
+  gap:
+    sm: gap-2 sm:gap-3
+    md: gap-4 sm:gap-6
+    lg: gap-6 sm:gap-8 lg:gap-12
+  align:
+    start: justify-start
+    center: justify-center
+    end: justify-end
+    between: justify-between
+    around: justify-around
+
+column:
+  tag: div
+  class: flex flex-col
+  gap:
+    sm: gap-2 sm:gap-3
+    md: gap-4 sm:gap-6
+    lg: gap-6 sm:gap-8 lg:gap-12
+  align:
+    start: items-start
+    center: items-center
+    end: items-end
+
+stack:
+  tag: div
+  class: flex flex-col gap-6
+  variant:
+    tight: gap-4
+    loose: gap-8
+
+grid:
+  tag: div
+  class: grid gap-6 sm:gap-8
+  cols:
+    1: grid-cols-1
+    2: grid-cols-1 sm:grid-cols-2
+    3: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+    4: grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
+    auto: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
+  gap:
+    sm: gap-4 sm:gap-5
+    md: gap-6 sm:gap-8
+    lg: gap-8 sm:gap-10 lg:gap-12
+
+divider:
+  tag: hr
+  class: border-0 border-t border-gray-200 my-8
+  variant:
+    accent: border-teal-500 border-t-2
+    light: border-gray-100
+    dark: border-gray-300
+  spacing:
+    sm: my-4
+    md: my-8
+    lg: my-12 sm:my-16
+
+card:
+  tag: div
+  class: bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow
+  variant:
+    elevated: shadow-lg border-0 hover:shadow-xl
+    flat: shadow-none border border-gray-200
+    outlined: shadow-none border-2 border-gray-200
+    primary: border-l-4 border-l-teal-500
+    accent: border-l-4 border-l-orange-500
+    dark: bg-gray-900 text-white border-gray-800
+  padding:
+    none: p-0
+    sm: p-4 sm:p-5
+    lg: p-8 sm:p-10 md:p-12
+  template: |
+    @div class=flex flex-col gap-0
+      @div class=px-6 pt-6
+        {?title}
+      @div class=px-6 py-4 flex-1
+        {?body}
+      @div class=px-6 py-4 flex-1
+        {?children}
+      @div class=px-6 pb-6 border-t border-gray-200
+        {?footer}
+
+image:
+  tag: img
+  class: w-full h-auto object-cover
+  variant:
+    rounded: rounded-xl
+    circle: rounded-full
+    shadow: shadow-lg rounded-xl
+  aspect:
+    square: aspect-square
+    video: aspect-video
+    portrait: aspect-[3/4]

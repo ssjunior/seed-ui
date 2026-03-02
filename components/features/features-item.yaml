@@ -1,0 +1,5 @@
+features-item:
+  tag: div
+  class: group
+  variant:
+    bordered: border-l-2 border-teal-500 pl-4

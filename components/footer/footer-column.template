@@ -1,0 +1,5 @@
+@h4 as=h4, class=font-semibold text-medium text-lg
+  {?title}
+
+@div class=flex flex-col gap-2
+  {?children}

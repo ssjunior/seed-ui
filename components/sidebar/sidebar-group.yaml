@@ -1,0 +1,5 @@
+# Sidebar Group Component
+sidebar-group:
+  tag: details
+  class: group py-2
+  open: true

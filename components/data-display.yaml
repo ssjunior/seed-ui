@@ -1,0 +1,123 @@
+pill:
+  tag: span
+  class: self-start inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-teal-50 text-teal-700 border border-teal-200
+  variant:
+    accent: bg-orange-50 text-orange-700 border-orange-200
+    dark: bg-gray-900 text-white border-gray-800
+    glass: bg-white/80 backdrop-blur-sm text-gray-700 border-gray-200 shadow-sm
+    success: bg-green-50 text-green-700 border-green-200
+    new: bg-purple-50 text-purple-700 border-purple-200
+  size:
+    sm: px-3 py-1.5 text-xs
+    lg: px-5 py-2.5 text-base
+
+badge:
+  tag: span
+  class: inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-teal-100 text-teal-700
+  variant:
+    secondary: bg-gray-100 text-gray-700
+    accent: bg-orange-100 text-orange-700
+    success: bg-green-100 text-green-700
+    warning: bg-yellow-100 text-yellow-700
+    danger: bg-red-100 text-red-700
+    dark: bg-gray-900 text-white
+  size:
+    sm: px-2 py-0.5 text-xs
+    lg: px-3 py-1.5 text-sm
+
+avatar:
+  tag: img
+  class: w-10 h-10 rounded-full object-cover
+  variant:
+    rounded: rounded-xl
+    square: rounded-lg
+  size:
+    sm: w-6 h-6 sm:w-8 sm:h-8
+    lg: w-14 h-14 sm:w-16 sm:h-16
+    xl: w-20 h-20 sm:w-24 sm:h-24
+  border:
+    white: ring-2 ring-white
+    primary: ring-2 ring-teal-500
+
+avatar-group:
+  tag: div
+  class: flex -space-x-3
+  size:
+    sm: "[&>img]:w-8 [&>img]:h-8"
+    md: "[&>img]:w-10 [&>img]:h-10"
+    lg: "[&>img]:w-12 [&>img]:h-12"
+
+  template: |
+    @div class=flex -space-x-3
+      {children}
+    @span class=flex items-center justify-center rounded-full bg-gray-100 text-xs font-medium text-gray-700 ring-2 ring-white
+      +{overflow}
+
+icon:
+  tag: span
+  class: inline-flex items-center justify-center w-10 h-10 rounded-xl bg-teal-100 text-teal-600
+  variant:
+    secondary: bg-gray-100 text-gray-600
+    accent: bg-orange-100 text-orange-600
+    success: bg-green-100 text-green-600
+    warning: bg-yellow-100 text-yellow-600
+    danger: bg-red-100 text-red-600
+  size:
+    sm: w-8 h-8 text-sm
+    lg: w-12 h-12 text-lg
+    xl: w-16 h-16 text-2xl
+
+table:
+  tag: table
+  class: w-full text-sm text-left
+  variant:
+    striped: ""
+    bordered: border border-gray-200
+
+thead:
+  tag: thead
+  class: text-xs uppercase tracking-wide text-gray-500 bg-gray-50 border-b border-gray-200
+
+tbody:
+  tag: tbody
+  class: divide-y divide-gray-100
+
+tr:
+  tag: tr
+  class: hover:bg-gray-50 transition-colors
+  variant:
+    striped: even:bg-gray-50
+    selected: bg-teal-50
+
+th:
+  tag: th
+  class: px-4 py-3 sm:px-6 sm:py-4 font-semibold text-gray-700
+  align:
+    left: text-left
+    center: text-center
+    right: text-right
+
+td:
+  tag: td
+  class: px-4 py-3 sm:px-6 sm:py-4 text-gray-600
+  align:
+    left: text-left
+    center: text-center
+    right: text-right
+
+ul:
+  tag: ul
+  class: space-y-3 text-gray-600 list-none
+  variant:
+    disc: list-disc list-inside
+    check: space-y-2
+
+ol:
+  tag: ol
+  class: space-y-3 text-gray-600 list-decimal list-inside
+
+li:
+  tag: li
+  class: text-gray-600 leading-relaxed
+  variant:
+    check: flex items-start gap-3

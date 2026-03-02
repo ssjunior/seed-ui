@@ -1,0 +1,6 @@
+faq:
+  tag: section
+  class: py-12 sm:py-16 md:py-20
+  variant:
+    compact: max-w-2xl mx-auto
+    wide: max-w-4xl mx-auto

@@ -1,0 +1,7 @@
+features:
+  tag: div
+  class: grid gap-6 sm:gap-8
+  variant:
+    2cols: grid-cols-1 sm:grid-cols-2
+    3cols: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+    4cols: grid-cols-1 sm:grid-cols-2 lg:grid-cols-4

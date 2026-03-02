@@ -1,7 +1,0 @@
-spacer:
-  tag: div
-  class: h-8
-  variant:
-    sm: h-2
-    md: h-4
-    xl: h-16

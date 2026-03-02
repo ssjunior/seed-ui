@@ -1,0 +1,8 @@
+breadcrumb:
+  tag: nav
+  class: flex items-center text-sm text-gray-500
+
+  separator:
+    slash: "[&>*:not(:last-child)]:after:content-['/'] [&>*:not(:last-child)]:after:mx-2 [&>*:not(:last-child)]:after:text-gray-400"
+    chevron: "[&>*:not(:last-child)]:after:content-['>'] [&>*:not(:last-child)]:after:mx-2 [&>*:not(:last-child)]:after:text-gray-400"
+    dot: "[&>*:not(:last-child)]:after:content-['·'] [&>*:not(:last-child)]:after:mx-2 [&>*:not(:last-child)]:after:text-gray-400"

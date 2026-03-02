@@ -1,0 +1,3 @@
+tabs-item:
+  tag: button
+  class: px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 border-b-2 border-transparent hover:border-gray-300 transition-colors -mb-px data-[active=true]:text-teal-600 data-[active=true]:border-teal-600

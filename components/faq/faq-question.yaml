@@ -1,0 +1,3 @@
+faq-question:
+  tag: details
+  class: group py-1 border-b border-gray-200

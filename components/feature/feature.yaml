@@ -1,7 +1,0 @@
-feature:
-  tag: section
-  class: py-12 md:py-16 lg:py-20
-
-  variant:
-    muted: bg-gray-50
-    inverted: bg-gray-900 text-white

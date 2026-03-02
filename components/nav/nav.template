@@ -1,0 +1,19 @@
+@div class=max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
+  @div class=seed-nav-inner flex items-center justify-between h-20 transition-all duration-300
+    @div class=flex items-center gap-6 sm:gap-8 w-full justify-between
+      @div class=shrink-0
+        {?logo}
+      @div class=hidden md:flex items-right gap-1
+        {?menu}
+      @div class=hidden md:flex items-center gap-3
+        {?actions}
+
+    @button as=button, class=md:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 rounded-lg hover:bg-gray-100 border-none bg-transparent cursor-pointer aria-label=Menu aria-expanded=false
+      @span class=block w-5 h-0.5 bg-gray-700 transition-all duration-200
+      @span class=block w-5 h-0.5 bg-gray-700 transition-all duration-200
+      @span class=block w-5 h-0.5 bg-gray-700 transition-all duration-200
+
+@div class=hidden md:hidden border-t border-gray-200 bg-white px-4 py-3 space-y-1
+  {?menu}
+  @div class=pt-3 border-t border-gray-100 mt-3 flex flex-col gap-2
+    {?actions}

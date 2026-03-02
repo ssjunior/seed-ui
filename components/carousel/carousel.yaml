@@ -1,5 +1,0 @@
-carousel:
-  tag: div
-  class: w-full
-  variant:
-    contained: max-w-5xl mx-auto

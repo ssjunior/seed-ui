@@ -1,0 +1,16 @@
+tabs:
+  tag: div
+  data-tabs: true
+
+tabs-group:
+  tag: div
+  class: flex border-b border-gray-200
+  data-tabs-group: true
+
+  variant:
+    pills: border-none bg-gray-100 p-1 rounded-lg gap-1
+
+tabs-panel:
+  tag: div
+  class: py-4
+  data-tabs-panel: true

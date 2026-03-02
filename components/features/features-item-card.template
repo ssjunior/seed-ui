@@ -1,0 +1,7 @@
+@div class=bg-white rounded-2xl p-6 sm:p-8 border border-gray-100 shadow-sm hover:shadow-md transition-all group
+  @div class=w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-teal-100 text-teal-600 flex items-center justify-center mb-4 group-hover:bg-teal-600 group-hover:text-white transition-colors
+    {?icon}
+  @h3 as=h3, class=font-semibold text-gray-900 text-lg sm:text-xl
+    {?title}
+  @p as=p, class=text-gray-600 text-sm sm:text-base mt-2
+    {?description}

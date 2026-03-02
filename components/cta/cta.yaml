@@ -1,0 +1,9 @@
+cta:
+  tag: section
+  class: py-12 sm:py-16 md:py-20
+  variant:
+    primary: bg-teal-600 text-white
+    dark: bg-gray-900 text-white
+    gradient: bg-gradient-to-br from-teal-600 to-teal-800 text-white
+    accent: bg-orange-500 text-white
+    light: bg-gray-50

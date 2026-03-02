@@ -1,8 +1,0 @@
-@a class=seed-nav-item flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors cursor-pointer
-  {icon}
-  @span
-    {title}
-@div class=seed-nav-dropdown absolute left-0 top-full pt-1 hidden z-50
-  @div class=bg-white rounded-xl shadow-lg border border-gray-200 p-4
-    @div class=grid grid-cols-2 gap-1 min-w-80
-      {children}

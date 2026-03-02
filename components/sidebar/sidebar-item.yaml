@@ -1,0 +1,4 @@
+# Sidebar Item Component
+sidebar-item:
+  tag: a
+  class: flex items-center gap-3 px-3 py-2 text-sm rounded-lg transition-colors text-slate-700 hover:bg-slate-100 data-[active]:bg-slate-200 data-[active]:text-slate-900 data-[active]:font-medium
